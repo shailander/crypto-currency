@@ -1,0 +1,30 @@
+.container {
+    .table-row {
+        cursor: pointer;
+        .coin-info {
+            display: flex;
+            .coin-img {
+                height: 20px;
+                width: 20px;
+            }
+            .coin-name {
+                margin-left: 10px;
+            }
+            .coin-symbol {
+                margin-left: 10px;
+                font-weight: bold;
+            }
+        }
+    }
+    .table-row:hover {
+        background-color: rgb(236, 233, 233);
+    }
+    .perChange {
+        font-weight: 500;
+        font-size: 1em;
+        color: green;
+    }
+    .negative {
+        color: red;
+    }
+}
